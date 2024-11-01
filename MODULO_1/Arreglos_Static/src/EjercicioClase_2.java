@@ -1,6 +1,6 @@
 // 2) Realiza un programa el cual recorra un arreglo he identifique el número mayor
 
-package MODULO_1.Arreglos_ArrayList.src;
+package MODULO_1.Arreglos_Static.src;
 import java.util.Scanner;
 
 public class EjercicioClase_2 {

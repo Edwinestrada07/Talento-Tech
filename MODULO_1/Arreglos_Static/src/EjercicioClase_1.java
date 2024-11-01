@@ -1,7 +1,7 @@
 // 1) Realizar un programa que permita ingresar o capturar 15 números en un vector. Una vez cargados, se requiere 
 // que el programador muestre por panatalla el número de veces que se ingresó el número 3.
 
-package MODULO_1.Arreglos_ArrayList.src;
+package MODULO_1.Arreglos_Static.src;
 import java.util.Scanner;
 
 public class EjercicioClase_1 {

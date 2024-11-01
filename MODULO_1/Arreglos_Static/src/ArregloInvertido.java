@@ -1,4 +1,4 @@
-package MODULO_1.Arreglos_ArrayList.src;
+package MODULO_1.Arreglos_Static.src;
 
 public class ArregloInvertido {
     public static void main(String[] args) {

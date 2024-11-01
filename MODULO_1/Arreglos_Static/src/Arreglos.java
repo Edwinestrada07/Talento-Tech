@@ -5,7 +5,7 @@
 // Bidimensionales: Comprenden tablas de valores, donde cada elemento esta sumultáneamente en una fila y una columna a la vez
 // ejemplo las matrices.
 
-package MODULO_1.Arreglos_ArrayList.src;
+package MODULO_1.Arreglos_Static.src;
 
 public class Arreglos {
     public static void main(String[] args) {
