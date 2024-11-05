@@ -1,12 +1,12 @@
 // Lista de matrices de Java:
 // La ArrayList clase es una matriz redimensionable , que se puede encontrar en el java.utilpaquete.
-// La diferencia entre una matriz incorporada y una matriz ArrayListen Java es que el tamaño de una 
+// La diferencia entre una matriz incorporada y una matriz ArrayList en Java es que el tamaño de una 
 // matriz no se puede modificar (si desea agregar o eliminar elementos de una matriz, debe crear una nueva). 
-// Mientras que los elementos se pueden agregar y eliminar de una matriz ArrayListcuando lo desee. 
+// Mientras que los elementos se pueden agregar y eliminar de una matriz ArrayList cuando lo desee. 
 // La sintaxis también es ligeramente diferente:
 
-// En este ArrayListcapítulo, aprendiste que las matrices almacenan elementos como una colección ordenada y 
-// que se puede acceder a ellos con un número de índice ( inttipo). HashMapSin embargo, las matrices almacenan
+// En este ArrayList capítulo, aprendiste que las matrices almacenan elementos como una colección ordenada y 
+// que se puede acceder a ellos con un número de índice (int tipo). HashMap Sin embargo, las matrices almacenan
 // elementos en pares " clave / valor " y se puede acceder a ellos mediante un índice de otro tipo (por 
 // ejemplo, a String).
 
@@ -37,6 +37,7 @@ public class Definicion_HashMap {
         } else {
             System.out.println("Clave no encontrada");
         }
+        
         System.out.println(datos);
         System.out.println("El valor es de " + datos.get(2)); // Método get me arroja el valor a travéz de la clave
 
