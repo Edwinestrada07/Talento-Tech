@@ -1,5 +1,3 @@
-package MODULO_1.ArrayList_Dynamic.src;
-
 public class Estudiante {
     private String documento;
     private String nombre;
@@ -12,7 +10,12 @@ public class Estudiante {
         this.edad = edad;
     }
 
-     // Getters and Setters
+    public Estudiante(String nombre, int edad) {
+        this.nombre = nombre;
+        this.edad = edad;
+    }
+
+    // Getters and Setters
     public String getDocumento() {
         return documento;
     }
@@ -37,6 +40,12 @@ public class Estudiante {
         this.edad = edad;
     }
 
-   
-    
+    //ToString method (Método de la super clase Object) - Permite la inicialización de los datos que llegan
+    @Override
+    public String toString() {
+        return "Estudiante{" +
+                "nombre='" + nombre + '\'' +
+                ", edad=" + edad +
+                '}';
+    }
 }
